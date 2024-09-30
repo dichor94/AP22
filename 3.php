@@ -12,14 +12,21 @@
 
     <?php
 
+        $radio = 25;
+        const PI = 3.14; //Pongo el valor de PI como constante
 
 
+        $radioCuadrado = $radio * $radio;
 
+        //Calculamos el área del círculo a partir del radioCuadrado
 
-
-
+        $areaCirculo = PI * $radioCuadrado;
 
     ?>
+
+
+    El valor del radio es: <strong><?php echo $radio ?></strong><br><br>
+    El área del círculo es: <strong><?php echo $areaCirculo ?></strong>
 
 
 
