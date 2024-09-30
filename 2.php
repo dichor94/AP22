@@ -23,13 +23,10 @@
 
     ?>
 
-    La base del triángulo es de: <strong><?php echo $base?></strong>cm<br><br>
-    La altura del triángulo es de: <strong><?php echo $altura?></strong>cm<br><br>
+    La base del rectángulo es de: <strong><?php echo $base?></strong>cm<br><br>
+    La altura del rectángulo es de: <strong><?php echo $altura?></strong>cm<br><br>
 
-    El área del triángulo es: <strong><?php echo $area   ?></strong>cm
-
-
-
+    El área del rectángulo es: <strong><?php echo $area   ?></strong>cm
     
 </body>
 </html>
