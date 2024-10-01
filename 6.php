@@ -26,7 +26,7 @@
 
     ?>
 
-    El precio final de la leche vendida en el día de hoy es: <strong><?php echo (round($precioFinal, 2))?>€</strong>
+    El precio final de la leche vendida en el día de hoy es: <strong><?php echo round($precioFinal, 2)?>€</strong>
 
 
 
